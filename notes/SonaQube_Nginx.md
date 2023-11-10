@@ -4,7 +4,7 @@ We will also run a PostgreSQL instance.
 1 - Name your instance
 Pattern name
 ProjectID - ProductName - ServerFunction - ProductEnv - SettingDefinition
-CP001     - DevOpsTools - Nexus        - Prod       - Instance/SecurityGroup/KeyPair
+CP001     - DevOpsTools - SonarQube        - Prod       - Instance/SecurityGroup/KeyPair
 CP001-DevOpsTools-SonarQube-Nginx-PSQL-Prod-Instance
 
 2 - Choose the AMI - this case Cento7 with Updates;

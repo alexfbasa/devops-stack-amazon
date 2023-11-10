@@ -1,2 +1,19 @@
 .idea/*
 .idea
+
+# Ignore Terraform state files
+terraform-services/*.tfstate
+terraform-services/*.tfstate.backup
+
+
+# Ignore directories used for Terraform
+terraform-services/.terraform/
+
+# Ignore sensitive variable files
+terraform-services/*.tfvars
+*./terraform.tfstate*
+*./terraform.*
+images.txt
+terraform-services/.terraform
+terraform-services/.terraform.lock.hcl
+terraform-services/.terraform.tf*

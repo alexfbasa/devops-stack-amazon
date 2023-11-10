@@ -10,8 +10,7 @@ sudo systemctl start docker
 sudo docker run hello-world
 
 
-
-if (( echo $?== 0 )); then
-      echo "Docker installed";
-      exit;
+if [[ $? -ne 0 ]]
+then
+  echo "Docker install failed"
 fi

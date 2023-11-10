@@ -5,7 +5,12 @@ First you need to install *aws cli*, get it done and configure your aws client:
 ```commandline
 aws configure
 ```
-It will ask you access key and secret key, which can be created at AMAZON IAM Console new user.
-Give to it:
-Name =  Follow the pattern name
-Access = Programmatic access
+Create a key pair = name follow the pattern name
+
+Download the key.
+```text
+AWS Access Key ID [****************HHB7]: ACCESS KEY
+AWS Secret Access Key [****************6lIo]: SECRET KEY
+Default region name [us-east-1]:          
+Default output format [json]: 
+```
